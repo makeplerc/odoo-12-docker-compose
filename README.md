@@ -1,3 +1,12 @@
+# Requisitos
+
+Instalar docker container y docker-compose
+```
+$ sudo apt-get install docker.io
+$ sudo curl -L https://github.com/docker/compose/releases/download/1.21.2/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+$ sudo chmod +x /usr/local/bin/docker-compose
+$ docker-compose --version
+
 # Usage
 
 Change the folder permission to make sure that the container is able to access the directory:
